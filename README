@@ -2,7 +2,7 @@ This is a small and simple program to calculate fibonacci numbers. It is
 written in Haskell.
 
 The main point to notice is the use of semi-explicit parallelism which
-increases performance and makes it roughly n times as fast as a one-threaded
+increases performance and makes it roughly n times faster than a one-threaded
 version (where n stands for the number of threads/CPUs available).
 
 To try it out, simply type:
