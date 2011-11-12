@@ -19,8 +19,9 @@ along with fibonacci. If not, see <http://www.gnu.org/licenses/>.
 
 import System
 import Control.Parallel
-import Control.Monad
 
+-- Note: Yes, this is not the most efficient approach but one of the more
+-- elgant ways. Anyway, the focus is on parallelism and its benefits.
 fib :: Integral a => a -> a
 fib 0 = 1
 fib 1 = 1
